@@ -1,0 +1,78 @@
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;}
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    font-family: 'Josefin Sans';
+    font-size: 75px;
+    text-align: center;
+}
+.aboutme {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.project {
+    min-height: 100vh;
+    min-width: 100vh;
+    padding: 10%;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    height: 75px;
+    width: 200px;
+    background-color: #ffa7a6;
+    border: 1px solid transparent;
+    border-radius: 1.3rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+    margin-right: 33px;
+    font-family: 'Josefin Sans';
+    font-size: 33px;
+}
+
+button:active {
+    background-color: #f25477;
+}
+
+.text {
+    min-height: 100vh;
+    min-width: 100vh;
+    padding: 10%;
+    font-family: 'Josefin Sans';
+    font-size: 50px;
+    text-align: center;
+}
+
+img {
+    z-index: -1;
+}
