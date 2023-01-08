@@ -22,12 +22,10 @@ img {
 }
 .aboutme {
     min-height: 100vh;
-    min-width: 100vh;
 }
 
 .project {
     min-height: 100vh;
-    min-width: 100vh;
     padding: 10%;
 }
 
@@ -66,7 +64,6 @@ button:active {
 
 .text {
     min-height: 100vh;
-    min-width: 100vh;
     padding: 10%;
     font-family: 'Josefin Sans';
     font-size: 50px;
