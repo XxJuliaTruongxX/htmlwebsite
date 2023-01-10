@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 110vh;
 
 }
 .background {
@@ -13,7 +13,7 @@
 }
 img {
     width: 100%;
-    height: 110%;
+    height: 105%;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -32,7 +32,6 @@ img {
 
 .project {
     min-height: 100vh;
-    padding: 10%;
 }
 
 h1 {
@@ -73,4 +72,16 @@ button:active {
     font-family: 'Josefin Sans';
     font-size: 50px;
     text-align: center;
+}
+
+.border {
+    height: 33px;
+    width: 100%;
+    background-color: #ffa7a6;
+    z-index: -1;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
