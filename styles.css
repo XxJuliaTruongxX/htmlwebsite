@@ -3,17 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 110vh;
+    min-height: 100vh;
 
 }
-.background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 img {
     width: 100%;
-    height: 105%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -25,9 +21,6 @@ img {
     font-size: 75px;
     text-align: center;
     margin-bottom: 33px;
-}
-.aboutme {
-    min-height: 100vh;
 }
 
 .project {
@@ -44,7 +37,12 @@ h1 {
     align-items: center;
 }
 
-button {
+.button {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
     height: 75px;
     width: 200px;
     background-color: #ffa7a6;
@@ -62,24 +60,34 @@ button {
     font-size: 33px;
 }
 
-button:active {
+.button:active {
     background-color: #f25477;
 }
 
 .text {
-    min-height: 100vh;
-    padding: 10%;
+    padding: 5%;
     font-family: 'Josefin Sans';
     font-size: 50px;
     text-align: center;
 }
 
-.border {
-    height: 33px;
+.backgroundborder {
     width: 100%;
+}
+
+.pinkborder {
+    height: 33px;
+    margin-bottom: 33px;
     background-color: #ffa7a6;
     z-index: -1;
 }
+
+.whiteborder {
+    height: 33px;
+    margin-bottom: 33px;
+    background-color: black;
+}
+
 
 body {
     margin: 0px;
