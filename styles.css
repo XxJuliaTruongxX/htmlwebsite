@@ -9,7 +9,7 @@
 
 img {
     width: 100%;
-    height: 100%;
+    height: 105%;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -67,7 +67,7 @@ h1 {
 .text {
     padding: 5%;
     font-family: 'Josefin Sans';
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -75,6 +75,13 @@ h1 {
     width: 100%;
 }
 
+.animate-on-scroll {
+    transition: 1.5s;
+}
+
+.animate {
+    width: 50%;
+}
 .pinkborder {
     height: 33px;
     margin-bottom: 33px;
@@ -82,10 +89,14 @@ h1 {
     z-index: -1;
 }
 
+.border {
+    margin-top: 13px;
+}
+
 .whiteborder {
     height: 33px;
     margin-bottom: 33px;
-    background-color: black;
+    background-color: white;
 }
 
 
