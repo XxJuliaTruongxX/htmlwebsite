@@ -1,0 +1,24 @@
+{
+  "name": "julia-truong-website",
+  "version": "1.0.0",
+  "description": "Julia Truong's personal website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed' && exit 0",
+    "start": "echo 'Starting local server...' && npx serve .",
+    "dev": "npx serve ."
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "static"
+  ],
+  "author": "Julia Truong",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
