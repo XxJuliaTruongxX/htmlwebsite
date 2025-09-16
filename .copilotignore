@@ -1,0 +1,37 @@
+# Copilot ignore file - excludes files that don't provide useful context for AI assistance
+
+# Image files and media assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+*.webp
+anya_favicon
+war_cat.jpg
+website_background.png
+website_background2.png
+
+# Build and dependency files  
+node_modules/
+package-lock.json
+dist/
+build/
+
+# Environment and config files
+.env*
+.nvmrc
+vercel.json
+
+# IDE and system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Git files
+.git/
+.gitignore
