@@ -1,24 +1,46 @@
 {
   "name": "julia-truong-website",
   "version": "1.0.0",
-  "description": "Julia Truong's personal website",
+  "description": "Julia Truong's personal portfolio website - a responsive HTML/CSS/JavaScript site showcasing Computer Science and Mathematics student work",
   "main": "index.html",
+  "homepage": "https://juliatru.ong",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XxJuliaTruongxX/htmlwebsite.git"
+  },
   "scripts": {
     "build": "echo 'Static site - no build needed' && exit 0",
     "start": "echo 'Starting local server...' && npx serve .",
-    "dev": "npx serve ."
+    "dev": "npx serve .",
+    "preview": "npx serve . --listen 3000"
   },
   "engines": {
     "node": ">=20.0.0"
   },
   "keywords": [
     "portfolio",
-    "website",
-    "static"
+    "website", 
+    "static",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "student-portfolio",
+    "computer-science",
+    "personal-website"
   ],
-  "author": "Julia Truong",
+  "author": {
+    "name": "Julia Truong",
+    "email": "hello@juliatru.ong",
+    "url": "https://juliatru.ong"
+  },
   "license": "MIT",
   "devDependencies": {
     "serve": "^14.2.1"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }

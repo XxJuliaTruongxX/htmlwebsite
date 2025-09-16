@@ -1,12 +1,20 @@
+/**
+ * Julia Truong Portfolio Website Styles
+ * Design System: Pink (#ffa7a6) and white color scheme with Josefin Sans typography
+ * Layout: Mobile-first responsive design using flexbox
+ * Animations: CSS transitions triggered by JavaScript scroll observers
+ */
+
+/* Main container - centers content vertically and horizontally */
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
 }
 
+/* Background image styling - full viewport coverage */
 img {
     width: 100%;
     height: 105%;
@@ -16,6 +24,7 @@ img {
     left: 0;
     z-index: -1;
 }
+/* Main heading - large, centered title with Josefin Sans font */
 .header {
     font-family: 'Josefin Sans';
     font-size: 75px;
@@ -41,6 +50,7 @@ h5 {
     align-items: center;
 }
 
+/* Social media and navigation buttons - pink theme with hover effects */
 .button {
     display: flex; 
     justify-content: center;
@@ -49,7 +59,7 @@ h5 {
     color: black;
     height: 75px;
     width: 200px;
-    background-color: #ffa7a6;
+    background-color: #ffa7a6; /* Primary pink brand color */
     border: 1px solid transparent;
     border-radius: 1.3rem;
     font-size: 0.95rem;
