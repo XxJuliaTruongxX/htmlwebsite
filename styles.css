@@ -116,7 +116,11 @@ body {
     left: -200px; /* Hidden by default */
     width: 200px;
     height: 100vh;
-    background-color: rgba(255, 167, 166, 0.95); /* Semi-transparent pink */
+    /* Ombre gradient effect from light pink to deeper pink */
+    background: linear-gradient(180deg, 
+        rgba(255, 192, 191, 0.95) 0%,
+        rgba(255, 167, 166, 0.95) 40%,
+        rgba(242, 84, 119, 0.95) 100%);
     backdrop-filter: blur(10px);
     transition: left 0.3s ease-in-out;
     z-index: 1000;
@@ -134,7 +138,8 @@ body {
     right: -40px;
     width: 40px;
     height: 40px;
-    background-color: #ffa7a6;
+    /* Ombre effect for hamburger button */
+    background: linear-gradient(135deg, #ffc0bf 0%, #ffa7a6 50%, #f25477 100%);
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -144,6 +149,7 @@ body {
     border-radius: 0 8px 8px 0;
     cursor: pointer;
     font-family: 'Josefin Sans';
+    box-shadow: 0 2px 8px rgba(242, 84, 119, 0.3);
 }
 
 .sidebar-menu {
@@ -170,9 +176,11 @@ body {
 }
 
 .sidebar-link:hover {
-    background-color: rgba(242, 84, 119, 0.8);
+    /* Ombre hover effect */
+    background: linear-gradient(135deg, rgba(242, 84, 119, 0.9) 0%, rgba(200, 60, 90, 0.9) 100%);
     color: white;
     transform: translateX(5px);
+    box-shadow: 0 2px 6px rgba(242, 84, 119, 0.4);
 }
 
 /* Smooth scrolling for the entire page */
