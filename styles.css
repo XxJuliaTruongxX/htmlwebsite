@@ -108,3 +108,63 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+/* Mobile Responsive Design */
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .button {
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .text {
+        font-size: 18px;
+        padding: 8%;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    
+    .button {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+    
+    .text {
+        font-size: 16px;
+        padding: 6%;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+}
